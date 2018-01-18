@@ -1,0 +1,131 @@
+table.datagrid {
+	border:1px solid #DDDDDD;
+	border-collapse:collapse;
+}
+ul {
+	border:0;
+	margin:0;
+	padding:0;
+}
+.table-info {
+	float: left;
+	margin-top: 5px;
+}
+.advanced-table tbody td {
+	border-bottom:1px solid #DDD;
+	padding: 3px 0px;
+}
+.advanced-table thead th {
+	font-family:Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	font-size:14px;
+	font-style:italic;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-variant:normal;
+	font-weight:bold;
+	background: #E5E5E5;
+	border-top:1px solid #BBB;
+	border-bottom:1px solid #BBB;
+	padding: 2px 5px;
+	color: #444;
+}
+
+.table-per-page {
+	float: right;
+}
+.table-per-page span {
+	float: left;
+	margin-top: 5px;
+}
+.table-per-page ul {
+	float: right;
+}
+.table-per-page li {
+	border:0;
+	margin:0;
+	padding:0;
+	font-size:11px;
+	list-style:none;
+	float: left;
+}
+.table-per-page a {
+	border-right:solid 1px #BBB;
+	margin-right:2px;
+}
+.table-per-page .previous-off, .table-per-page .next-off {
+	color:#888888;
+	display:block;
+	float:left;
+	font-weight:bold;
+	padding:3px 4px;
+}
+.table-per-page .next a, .table-per-page previous a {
+	border:none;
+	font-weight:bold;
+}
+.table-per-page .active {
+	font-weight:bold;
+	color: #FFF;
+}
+.table-per-page a:link, .table-per-page a:visited {
+	color:#333;
+	display:block;
+	float:left;
+	padding:3px 6px;
+	text-decoration:underline;
+}
+.table-per-page a:hover {
+	text-decoration:none;
+}
+/** PAGE SELECTOR **/
+.table-navigation {
+	float:right;
+	margin-left: 50px;
+}
+.table-navigation span {
+	float: left;
+	margin-top: 3px;
+}
+.table-navigation ul {
+	float: right;
+}
+.table-navigation li {
+	border:0;
+	margin:0;
+	padding:0;
+	font-size:11px;
+	list-style:none;
+	float: left;
+}
+.table-navigation a {
+	border:solid 1px #BBB;
+	margin-right:2px;
+	color:#999;
+}
+.table-navigation .active a {
+	color:#000;
+	font-weight:bold;
+	border:solid 1px #000;
+}
+.table-navigation a:link, .table-navigation a:visited {
+	display:block;
+	float:left;
+	padding:3px 6px;
+	text-decoration:none;
+}
+.table-navigation a:hover {
+	color: #333;
+}
+tfoot td {
+	background-color:#E5E5E5;
+	background-repeat:repeat-x;
+	color:#000000;
+	font-size:11px;
+	padding:0.6em;
+}
+.odd td {
+	background-color: #EEE;
+}
+.even td {
+	background-color: #FDFDFD;
+}
